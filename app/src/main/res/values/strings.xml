@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SocialLogins</string>
+    <string name="instagram_login">Instagram Login</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="twitter_login">Twitter Login</string>
+    <string name="google_plus_login">Google+ Login</string>
+    <string name="linkedin_login">Linkedin Login</string>
+    <string name="Name">name</string>
+
+
+    <string name="facebook_app_id">306092709915736</string>
+    <string name="fb_login_protocol_scheme">fb306092709915736</string>
+    <string name="name">name</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in">Sign in</string>
+
+</resources>
