@@ -128,8 +128,8 @@ public class FacebookFragment extends Fragment implements View.OnClickListener {
     }
 
     @Override public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        mCallbackManager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
+        mCallbackManager.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override public void onClick(View view) {

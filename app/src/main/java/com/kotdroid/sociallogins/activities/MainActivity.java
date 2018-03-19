@@ -110,5 +110,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (null != linkedin) {
             linkedin.onActivityResult(requestCode, resultCode, data);
         }
+
+        Fragment google = getSupportFragmentManager().findFragmentByTag("google");
+        if (null != google) {
+            google.onActivityResult(requestCode, resultCode, data);
+        }
+
+        Fragment facebook = getSupportFragmentManager().findFragmentByTag("facebook");
+        if (null != facebook) {
+            facebook.onActivityResult(requestCode, resultCode, data);
+        }
     }
 }

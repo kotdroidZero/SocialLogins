@@ -136,13 +136,12 @@ public class GoogleFragment extends Fragment implements View.OnClickListener {
                         .getIntent();
                 startActivityForResult(shareIntent, REQ_START_SHARE);
                 break;
-
-            case R.id.btnShareMedia:
-                //when you want to share some images or video also
-                Intent photoPicker = new Intent(Intent.ACTION_PICK);
-                photoPicker.setType("video/*, image/*");
-                startActivityForResult(photoPicker, REQ_SELECT_PHOTO);
-                break;
+//            case R.id.btnShareMedia:
+//                //when you want to share some images or video also
+//                Intent photoPicker = new Intent(Intent.ACTION_PICK);
+//                photoPicker.setType("video/*, image/*");
+//                startActivityForResult(photoPicker, REQ_SELECT_PHOTO);
+//                break;
         }
     }
 
