@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/login_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/btnShareMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Media on Google+"
+        />
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_marginTop="8dp"
+        android:id="@+id/sdvProfile"
+        fresco:actualImageResource="@drawable/ic_placeholder2"
+        fresco:roundAsCircle="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Name" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#0077B5"
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        />
+
+</LinearLayout>

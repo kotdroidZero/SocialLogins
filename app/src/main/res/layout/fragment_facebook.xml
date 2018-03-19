@@ -7,7 +7,7 @@
 
 
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/btnGoogleLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -17,8 +17,10 @@
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
         android:layout_gravity="center_horizontal"
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
 
 
     <com.facebook.drawee.view.SimpleDraweeView

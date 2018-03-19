@@ -1,4 +1,15 @@
+buildscript {
+    repositories {
+    }
+
+    dependencies {
+    }
+}
 apply plugin: 'com.android.application'
+
+repositories {
+}
+
 
 android {
     compileSdkVersion 26
@@ -6,6 +17,7 @@ android {
         applicationId "com.kotdroid.sociallogins"
         minSdkVersion 15
         targetSdkVersion 26
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,6 +32,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
@@ -31,7 +44,17 @@ dependencies {
     implementation 'com.facebook.fresco:fresco:1.8.0'
 
     //google-services sdk
-    compile 'com.google.android.gms:play-services-auth:11.8.0'
+    compile 'com.google.android.gms:play-services:11.8.0'
+
+    //linkedin module sdk
+    compile project(':linkedin-sdk')
+
+    // Include all the Twitter APIs
+    compile 'com.twitter.sdk.android:twitter:3.1.1'
+
+    apply plugin: 'com.google.gms.google-services'
+
 
 
 }
+

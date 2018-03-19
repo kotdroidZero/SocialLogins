@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "305174128178",
+    "firebase_url": "https://sociallogins-1521113933826.firebaseio.com",
+    "project_id": "sociallogins-1521113933826",
+    "storage_bucket": "sociallogins-1521113933826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305174128178:android:2bce26a4d29509ca",
+        "android_client_info": {
+          "package_name": "com.kotdroid.sociallogins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305174128178-43j5jbk5k2ahu5kjnbn1gqs27ij1hnjn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "305174128178-5ee3chj9h3it96siuqvbq9iapeghkqq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPTxHLnQzhRN8f_0UQhOXH1Cd6DtrAe6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305174128178-43j5jbk5k2ahu5kjnbn1gqs27ij1hnjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

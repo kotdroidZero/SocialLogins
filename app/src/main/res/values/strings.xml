@@ -13,5 +13,11 @@
     <string name="name">name</string>
     <string name="sign_out">Sign out</string>
     <string name="sign_in">Sign in</string>
+    <string name="sign_in_with_drive">Sign in with drive</string>
+
+
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">JFnrSJczS3jMLwlSNtiFdp891</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">cYjBWotwgsdD7AbgJU8UzhTyXeyKD74eVoSmXOh23aOmJO8QT0</string>
 
 </resources>
