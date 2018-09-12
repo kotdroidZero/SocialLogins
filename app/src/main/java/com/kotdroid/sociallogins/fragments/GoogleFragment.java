@@ -95,7 +95,7 @@ public class GoogleFragment extends Fragment implements View.OnClickListener {
                 .build();
 
         //now create a GoogleSignIn client with the option or requirement we specified above
-        mGoogleSignInClient = GoogleSignIn.getClient(getContext(), mGso);
+        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), mGso);
 
 
         /** Check for existing Google Sign In account, if the user is already signed in
@@ -123,7 +123,7 @@ public class GoogleFragment extends Fragment implements View.OnClickListener {
                 } else {
                     //   mGoogleSignInClient.revokeAccess();
                     Intent intentSignIn = mGoogleSignInClient.getSignInIntent();
-                    startActivityForResult(intentSignIn, RC_SIGN_IN);
+                    getActivity().startActivityForResult(intentSignIn, RC_SIGN_IN);
                     isSignedIn = true;
                 }
                 break;
@@ -150,7 +150,7 @@ public class GoogleFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+
 
         // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
         if (requestCode == RC_SIGN_IN) {

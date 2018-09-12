@@ -1,43 +1,43 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:1-7:12
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:5:5-20
+ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:5:5-20
 uses-permission#android.permission.INTERNET
-ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:6:5-66
+ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		ADDED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
-		INJECTED from /home/user12/AndroidProjectsOld/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/pushkarsrivastava/AndroidStudioProjects/SocialLogins/linkedin-sdk/src/main/AndroidManifest.xml

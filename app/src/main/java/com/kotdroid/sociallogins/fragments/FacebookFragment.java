@@ -79,7 +79,6 @@ public class FacebookFragment extends Fragment implements View.OnClickListener {
     }
 
     private void facebookCallBackRegister() {
-        FacebookSdk.sdkInitialize(getActivity());
 
         LoginManager.getInstance().registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
             @Override public void onSuccess(LoginResult loginResult) {

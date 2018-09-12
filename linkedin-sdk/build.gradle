@@ -12,6 +12,7 @@ buildscript {
 }
 
 apply plugin: 'android-library'
+apply plugin: 'kotlin-android'
 
 android {
     sourceSets {
@@ -48,4 +49,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile files('libs/volley.jar')
     androidTestCompile('junit:junit:4.12')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

@@ -16,12 +16,13 @@ import com.kotdroid.sociallogins.fragments.FacebookFragment;
 import com.kotdroid.sociallogins.fragments.GoogleFragment;
 import com.kotdroid.sociallogins.fragments.LinkedinFragment;
 import com.kotdroid.sociallogins.fragments.TwitterFragment;
+import com.kotdroid.sociallogins.services.TestService;
 import com.twitter.sdk.android.core.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnInsta, btnGoogle, btnFacebook, btnLinkedin, btnTwitter;
+    Button btnInsta, btnGoogle, btnFacebook, btnLinkedin, btnTwitter, btnCheckService;
 
     TextView tvName;
 
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnGoogle.setOnClickListener(this);
         btnLinkedin.setOnClickListener(this);
         btnTwitter.setOnClickListener(this);
+        btnCheckService.setOnClickListener(this);
 
         frameLayout = findViewById(R.id.flConatinerMain);
     }
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initViews() {
         btnFacebook = findViewById(R.id.btnFacebook);
         btnInsta = findViewById(R.id.btnInsta);
+        btnCheckService = findViewById(R.id.btnCheckService);
         btnGoogle = findViewById(R.id.btnGoogle);
         btnLinkedin = findViewById(R.id.btnLinkedin);
         btnTwitter = findViewById(R.id.btnTwitter);
@@ -66,7 +69,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ivProfile = findViewById(R.id.sdvProfile);
     }
 
-    @Override public void onClick(View view) {
+    @Override
+    public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnFacebook:
                 frameLayout.setVisibility(View.VISIBLE);
@@ -87,10 +91,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 frameLayout.setVisibility(View.VISIBLE);
                 getSupportFragmentManager().beginTransaction().add(R.id.flConatinerMain, new TwitterFragment(), "twitter").addToBackStack(null).commit();
                 break;
+            case R.id.btnCheckService:
+                startService(new Intent(this, TestService.class));
         }
     }
 
-    @Override public void onBackPressed() {
+    @Override
+    public void onBackPressed() {
         if (getSupportFragmentManager().popBackStackImmediate()) {
             getSupportFragmentManager().popBackStackImmediate();
         } else {
@@ -99,7 +106,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         Fragment twitter = getSupportFragmentManager().findFragmentByTag("twitter");
         if (null != twitter) {
